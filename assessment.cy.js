@@ -5,8 +5,6 @@ describe("Assessment", () => {
     cy.viewport(1280, 720);
   });
 
-  
-
   it("Print the teams for season to 2018", () => {
     //2. Set the season to 2018
     cy.get('[name="Season"]').select("2018", { force: true });
